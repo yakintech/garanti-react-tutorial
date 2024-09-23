@@ -2,3 +2,4 @@
 * Bir fonksiyon export edilmeden başka yerde kullanılamaz. O yerde de import edilmesi gerekli
 
 * Reactjs jsx içerisinde döngü olarak MAP kullanıyoruz
+* JSX return ederken return keyword yanında mutlaka bir şeyler olmalı yoksa fonksiyon return işlemini gerçekleştirir ve bitirir.

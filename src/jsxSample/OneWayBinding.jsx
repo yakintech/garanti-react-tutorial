@@ -9,6 +9,7 @@ function OneWayBinding() {
 
   let avgPoints = points.reduce((a, b) => a + b, 0) / points.length;
 
+
   return (
     <>
       <h1>Name: {name}</h1>
@@ -23,7 +24,9 @@ function OneWayBinding() {
           <li>{item}</li>
         ))}
       </ul>
+
     </>
+
   );
 }
 
