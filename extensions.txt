@@ -1,0 +1,8 @@
+Code Snippet
+dsznajder.es7-react-js-snippets
+
+Code Formatter - Prettier
+esbenp.prettier-vscode
+
+CHROME EXT - React Developer Tools
+https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi

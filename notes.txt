@@ -1,0 +1,4 @@
+* Bir js fonksiyonu html(jsx) bloğu dönüyorsa tek bir düğüm halinde dönmeli (fragment)
+* Bir fonksiyon export edilmeden başka yerde kullanılamaz. O yerde de import edilmesi gerekli
+
+* Reactjs jsx içerisinde döngü olarak MAP kullanıyoruz
