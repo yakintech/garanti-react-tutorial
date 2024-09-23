@@ -1,16 +1,22 @@
-import Footer from "./template/Footer";
-import Header from "./template/Header";
-import Navbar from "./template/Navbar";
-import PageContent from "./template/PageContent";
-
+import ProductBox from "./props/ProductBox";
 
 function App() {
-  return <>
-    <Navbar/>
-    <Header/>
-    <PageContent/>
-    <Footer/>
-  </>
+  
+  const hello = () => {
+    alert("Hello Reactjs!");
+  };
+
+  return (
+    <>
+      <ProductBox
+        name="IPhone"
+        description="Apple..."
+        price={5500}
+        points={[8, 1, 5]}
+        hello={hello}
+      />
+    </>
+  );
 }
 
 export default App;

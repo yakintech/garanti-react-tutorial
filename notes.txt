@@ -3,3 +3,6 @@
 
 * Reactjs jsx içerisinde döngü olarak MAP kullanıyoruz
 * JSX return ederken return keyword yanında mutlaka bir şeyler olmalı yoksa fonksiyon return işlemini gerçekleştirir ve bitirir.
+
+* html to jsx - bu sitede klasik html bloklarını jsxe çevirebilirsiniz.
+https://transform.tools/html-to-jsx
