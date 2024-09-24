@@ -7,6 +7,7 @@ import BlogDetail from "./pages/BlogDetail";
 import SupplierPage from "./effect/SupplierPage";
 import EffectCleanUp from "./effect/EffectCleanUp";
 import ProductsPage from "./pages/ProductsPage";
+import OrdersPage from "./pages/OrdersPage";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <li><Link to="/effect-clean">Effect Clean Up</Link></li>
         <li><Link to="/suppliers">Suppliers</Link></li>
         <li><Link to="/products">Products</Link></li>
+        <li><Link to="/orders">Orders</Link></li>
       </ul>
       <hr />
 
@@ -32,6 +34,7 @@ function App() {
         <Route path="/suppliers" element={<SupplierPage/>} />
         <Route path="/effect-clean" element={<EffectCleanUp/>} />
         <Route path="/products" element={<ProductsPage/>} />
+        <Route path="/orders" element={<OrdersPage/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
 
