@@ -6,12 +6,10 @@ import NotFound from "./pages/NotFound";
 import BlogDetail from "./pages/BlogDetail";
 import SupplierPage from "./effect/SupplierPage";
 import EffectCleanUp from "./effect/EffectCleanUp";
-import DependenctSample from "./effect/DependenctSample";
-import DependenctSample2 from "./effect/DependenctSample2";
+import ProductsPage from "./pages/ProductsPage";
 
 function App() {
 
-  return <DependenctSample2 />
 
 
   return (
@@ -22,6 +20,7 @@ function App() {
         <li><Link to="/news">News</Link></li>
         <li><Link to="/effect-clean">Effect Clean Up</Link></li>
         <li><Link to="/suppliers">Suppliers</Link></li>
+        <li><Link to="/products">Products</Link></li>
       </ul>
       <hr />
 
@@ -32,6 +31,7 @@ function App() {
         <Route path="/blog/:id" element={<BlogDetail/>} />
         <Route path="/suppliers" element={<SupplierPage/>} />
         <Route path="/effect-clean" element={<EffectCleanUp/>} />
+        <Route path="/products" element={<ProductsPage/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
 
