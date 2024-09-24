@@ -6,3 +6,7 @@ esbenp.prettier-vscode
 
 CHROME EXT - React Developer Tools
 https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+
+CHROME EXT - Json Viewer
+https://chromewebstore.google.com/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc
+
