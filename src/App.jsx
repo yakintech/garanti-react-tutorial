@@ -4,8 +4,13 @@ import Blog from "./pages/Blog";
 import News from "./pages/News";
 import NotFound from "./pages/NotFound";
 import BlogDetail from "./pages/BlogDetail";
+import StateSample from "./stateSample/StateSample";
 
 function App() {
+
+
+  return <StateSample />;
+
   return (
     <>
       <ul style={{display:"flex", justifyContent:'space-between'}}>
