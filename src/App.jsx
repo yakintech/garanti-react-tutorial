@@ -5,11 +5,16 @@ import News from "./pages/News";
 import NotFound from "./pages/NotFound";
 import BlogDetail from "./pages/BlogDetail";
 import StateSample from "./stateSample/StateSample";
+import ColorChange from "./stateSample/ColorChange";
+import ToggleSample from "./stateSample/ToggleSample";
+import StateArraySample from "./stateSample/StateArraySample";
+import ObjectArraySample from "./stateSample/ObjectArraySample";
+import CategoryPage from "./stateSample/category/CategoryPage";
 
 function App() {
 
 
-  return <StateSample />;
+  return <CategoryPage />;
 
   return (
     <>

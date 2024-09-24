@@ -9,3 +9,7 @@ https://transform.tools/html-to-jsx
 
 Reactjs İçerik
 https://docs.google.com/spreadsheets/d/1MGNIHyx53wyVjbo6dlJXZb20nw13E_qJ4Wy6eIzJatg/edit?usp=sharing
+
+Updating Arrays in State
+https://react.dev/learn/updating-arrays-in-state
+
